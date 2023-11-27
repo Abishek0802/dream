@@ -12,7 +12,7 @@ import Eservice from "./Eservice";
 import Forproviders from "./ForProviders";
 import ProductService from "./ProductService";
 import BuyingProductListing from "./BuyingProductListing";
-import { Login } from "./Login";
+import Login from './Login'
 const Both1 =[<ResponsiveAppBar/>,<MainContent/>,<Footer/>]
 const Both2 =[<Buying/>,<BuyingProductListing/>,<Footer/>]
 const Both3 =[<Selling/>,<Footer/>]
@@ -31,6 +31,7 @@ export default function App() {
         <Route path="/Both5" element={Both5} />
         <Route path="/Both6" element={Both6} />
         <Route path="/Login" element={<Login/>} />
+       
       </Routes>
     </BrowserRouter>
   );
