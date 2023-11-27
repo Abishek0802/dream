@@ -1,12 +1,14 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import React from 'react'
 import './Login.css';
 
 const Login = () => {
   return (
-    <> <Box className='Box' sx={{border:3,width:'100%',height:'100%'}} ></Box>
+    <> <Box className='Box' sx={{ border: 0, width: '1536px', height: '747px' }} >
+      
+    </Box>
     </>
-   
+
   )
 }
 
