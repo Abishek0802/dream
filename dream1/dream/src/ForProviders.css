@@ -1,0 +1,10 @@
+.providers{
+    border-radius: 10px;
+background: #e0e0e0;
+box-shadow: inset -29px -29px 58px #acacac,
+            inset 29px 29px 58px #ffffff;
+            color: red;
+}
+Grid{
+    opacity: 100%;
+}

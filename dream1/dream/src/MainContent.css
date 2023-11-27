@@ -1,0 +1,16 @@
+.no{
+    text-decoration: none;
+    align-items: center;
+    display: grid;
+    padding: 50px;
+     border: solid blue;
+     color: aliceblue;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.no1{
+   width: 50%;
+   text-align: center;
+margin-left: 23%;
+}
