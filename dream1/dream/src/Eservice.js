@@ -15,13 +15,13 @@ const Eservice = () => {
     <Link className='userlogin'to='./Login'>PROVIDER LOGIN</Link></Box>
     </Box>
     <Box sx={{height:'327px',marginTop:'200px',padding:'10px',display:'flex'}}>
-        <Box sx={{width:'30%',height:'80px',marginLeft:'5%',marginTop:'20px',borderRadius:3,textAlign:'center',color:'white',backgroundColor:'black',boxShadow:9}}><Link to='/Both6' className='Link'>USER DASHBOARD</Link><BarLoader
+        <Box sx={{width:'30%',height:'80px',marginLeft:'5%',marginTop:'20px',borderRadius:3,textAlign:'center',color:'white',backgroundColor:'black',boxShadow:9}}><Link to='/Page6' className='Link'>USER DASHBOARD</Link><BarLoader
   className='Bar'
   color="#36d7b7"
   height={4}
   width={135}
 /></Box>
-        <Box sx={{width:'30%',height:'80px',marginLeft:'30%',marginTop:'20px',borderRadius:3,textAlign:'center',color:'white',backgroundColor:'black',boxShadow:9}}><Link to='/Both5' className='Link'>PROVIDER DASHBOARD</Link><BarLoader
+        <Box sx={{width:'30%',height:'80px',marginLeft:'30%',marginTop:'20px',borderRadius:3,textAlign:'center',color:'white',backgroundColor:'black',boxShadow:9}}><Link to='/Page5' className='Link'>PROVIDER DASHBOARD</Link><BarLoader
   className='Bar1'
   color="#36d7b7"
   height={4}

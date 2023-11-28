@@ -8,9 +8,9 @@ export default function MainContent() {
   return (
     <>
     <Box sx={{height:'482px'}} className='no1' >
-        <Link to="/Both2" className='no  '>BUYING</Link>
-        <Link to="/Both3"className='no  '>SELLING</Link>
-        <Link  to="/Both4" className='no  '>ELECTRONIC SERVICE</Link>
+        <Link to="/Page2" className='no  '>BUYING</Link>
+        <Link to="/Page3"className='no  '>SELLING</Link>
+        <Link  to="/Page4" className='no  '>ELECTRONIC SERVICE</Link>
     </Box>
   </>
   );
