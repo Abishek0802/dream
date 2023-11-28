@@ -11,7 +11,7 @@ function Login() {
   <Box align='center' marginTop='100px'  item xs={8}>
     <Box  borderRadius='10px'sx={{boxShadow:9,backgroundColor:' rgb(147, 208, 208)',height:'500px',width:'390px',marginTop:'0px'}}>
         <Typography variant='h4'  color='white' sx={{padding:'10px',boxShadow:9, fontWeight:'bold',backgroundColor:'black',borderRadius:'10px',height:'40px'}}>
-             WELLCOME BACK <BarLoader
+             WELCOME BACK <BarLoader
              color="rgb(147, 208, 208)"
               width={370}
              /> 

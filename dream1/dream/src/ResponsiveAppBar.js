@@ -14,7 +14,7 @@ export default function ButtonAppBar() {
         <Toolbar>
           <Box  sx={{ color:'blue',marginTop:'5px',flexGrow: 1,height:'40px' ,border:2,borderRadius:2,display:'flex',alignItems:'center', backgroundColor: 'rgb(147, 208, 208)',paddingLeft:'20px',textAlign:'end'}}>
           <Typography display='flex' alignItems='center'  variant="h6" component="div">
-            Build Dream  <RingLoader
+            Built Dream  <RingLoader
     className='Ring'
   color="blue"
   cssOverride={{}}
