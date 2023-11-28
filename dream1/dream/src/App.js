@@ -12,25 +12,30 @@ import Eservice from "./Eservice";
 import Forproviders from "./ForProviders";
 import ProductService from "./ProductService";
 import BuyingProductListing from "./BuyingProductListing";
-import Login from './Login'
-const Both1 =[<ResponsiveAppBar/>,<MainContent/>,<Footer/>]
-const Both2 =[<Buying/>,<BuyingProductListing/>,<Footer/>]
-const Both3 =[<Selling/>,<Footer/>]
-const Both4 =[<Eservice/>,<Footer/>]
-const Both5 =[<Forproviders/>,<Footer/>]
-const Both6 =[<ProductService/>,<Footer/>]
+import ContactUs from "./ContactUs";
+
+
+const Page1 =[<ResponsiveAppBar/>,<MainContent/>,<Footer/>]
+const Page2 =[<Buying/>,<BuyingProductListing/>,<Footer/>]
+const Page3 =[<Selling/>,<Footer/>]
+const Page4 =[<Eservice/>,<Footer/>]
+const Page5 =[<Forproviders/>,<Footer/>]
+const Page6 =[<ProductService/>,<Footer/>]
+
+
+
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={Both1} />
-        <Route path="/Both2" element={Both2} />
-        <Route path="/Both3" element={Both3} />
-        <Route path="/Both4" element={Both4} />
-        <Route path="/Both5" element={Both5} />
-        <Route path="/Both6" element={Both6} />
-        <Route path="/Login" element={<Login/>} />
+        <Route path="/" element={Page1} />
+        <Route path="/Both2" element={Page2} />
+        <Route path="/Both3" element={Page3} />
+        <Route path="/Both4" element={Page4} />
+        <Route path="/Both5" element={Page5} />
+        <Route path="/Both6" element={Page6} />
+        <Route path="/ContactUs" element={<ContactUs/>} />
        
       </Routes>
     </BrowserRouter>
