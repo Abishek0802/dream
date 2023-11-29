@@ -9,7 +9,7 @@ import RingLoader from "react-spinners/RingLoader"
 
 export default function ButtonAppBar() {
   return (
-    <Box sx={{ flexGrow: 1, }}>
+    <Box sx={{  flexGrow: 1, }}>
       <AppBar sx={{backgroundColor:'black',height:'80px',border:3,borderRadius:1,borderColor:'blue'}} position="static">
         <Toolbar>
           <Box  sx={{ color:'blue',marginTop:'5px',flexGrow: 1,height:'40px' ,border:2,borderRadius:2,display:'flex',alignItems:'center', backgroundColor: 'rgb(147, 208, 208)',paddingLeft:'20px',textAlign:'end'}}>
@@ -28,7 +28,7 @@ export default function ButtonAppBar() {
              </Typography>
              </Box>
         
-          <Link to='/Signup' className='link1' color='white'>LOGIN</Link>
+          <Link to='/Signup' className='link1' color='white'>SIGN UP</Link>
         </Toolbar>
       </AppBar>
     </Box>

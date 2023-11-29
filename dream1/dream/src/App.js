@@ -14,7 +14,7 @@ import ProductService from "./ProductService";
 import BuyingProductListing from "./BuyingProductListing";
 import ContactUs from "./ContactUs";
 import Signup from "./Signup";
-
+import Login from "./Login"
 const Page1 =[<ResponsiveAppBar/>,<MainContent/>,<Footer/>]
 const Page2 =[<Buying/>,<BuyingProductListing/>,<Footer/>]
 const Page3 =[<Selling/>,<Footer/>]
@@ -34,6 +34,7 @@ export default function App() {
         <Route path="/Page5" element={Page5} />
         <Route path="/Page6" element={Page6} />
         <Route path="/Signup" element={<Signup/>} />
+        <Route path="/Login" element={<Login/>} />
         <Route path="/ContactUs" element={<ContactUs/>} />
        
       </Routes>

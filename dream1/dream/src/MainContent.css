@@ -8,9 +8,15 @@
     background-color: black;
     margin-top: 50px;
     border-radius: 10px;
+    transition: transform 500ms;
+    transition-timing-function: cubic-bezier(25,-3,5,4);
+
 }
 .no1{
    width: 50%;
    text-align: center;
 margin-left: 23%;
+}
+.no:hover{
+    transform:scale(1.1);
 }

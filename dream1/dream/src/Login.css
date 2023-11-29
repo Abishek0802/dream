@@ -1,0 +1,31 @@
+.form{
+    padding: 10px;
+    margin-top: 40px;
+}
+label{
+   display: flex;
+   margin-left: 10px;
+  
+}
+.username{
+    margin-left: 20%;
+
+}
+.email{
+    margin-left: 22%;
+    
+}
+.password{
+    margin-left: 20%;
+}
+.conform{
+    margin-left: 15%;
+}
+.link{
+    text-decoration: none;
+    color:blue;
+}
+.bg1{
+    background-image: url(aunty.png);
+    background-size: cover;
+}

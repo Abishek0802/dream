@@ -8,7 +8,7 @@ function Forproviders() {
  <>
 <Grid  data-aos="flip-left" spacing={2}>
   <Grid align='center' marginTop='152px'  item xs={8}>
-    <Box  borderRadius='10px'sx={{boxShadow:9,backgroundColor:' rgb(147, 208, 208)',height:'460px',width:'390px'}}>
+    <Box  borderRadius='10px'sx={{transition:'transform 200ms',transitionTimingFunction:'cubic-bezier(.25,-3,5,4)',boxShadow:9,backgroundColor:' rgb(147, 208, 208)',height:'460px',width:'390px',"&:hover":{transform:'scale(1.1)'}}}>
         <Typography variant='h4'  color='white' sx={{padding:'10px',boxShadow:9, fontWeight:'bold',backgroundColor:'black',borderRadius:'10px',height:'40px'}}>
              FOR PROVIDERS
              </Typography>
