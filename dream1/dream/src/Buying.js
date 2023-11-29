@@ -2,6 +2,7 @@ import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
+import { Link } from 'react-router-dom';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
@@ -14,6 +15,7 @@ import Divider from '@mui/material/Divider';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import './Buying.css'
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -121,6 +123,7 @@ export  function Buying() {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' },backgroundColor:'rgb(147, 208, 208)',borderRadius:2,color:'blue',paddingLeft:'10px',borderColor:'blue',border:3 }}
           >
             Owner Dashboard
+           
           </Typography>
           <Search sx={{borderRadius:2}}>
             <SearchIconWrapper>
