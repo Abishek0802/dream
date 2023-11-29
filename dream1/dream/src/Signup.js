@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import './Signup.css';
 
+
 const SignUp = () => {
   const [formData, setFormData] = useState({
     username: '',
