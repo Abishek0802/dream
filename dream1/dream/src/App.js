@@ -13,7 +13,7 @@ import Forproviders from "./ForProviders";
 import ProductService from "./ProductService";
 import BuyingProductListing from "./BuyingProductListing";
 import ContactUs from "./ContactUs";
-import Login from "./Login";
+import Signup from "./Signup";
 
 const Page1 =[<ResponsiveAppBar/>,<MainContent/>,<Footer/>]
 const Page2 =[<Buying/>,<BuyingProductListing/>,<Footer/>]
@@ -33,7 +33,7 @@ export default function App() {
         <Route path="/Page4" element={Page4} />
         <Route path="/Page5" element={Page5} />
         <Route path="/Page6" element={Page6} />
-        <Route path="/Login" element={<Login/>} />
+        <Route path="/Signup" element={<Signup/>} />
         <Route path="/ContactUs" element={<ContactUs/>} />
        
       </Routes>

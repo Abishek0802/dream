@@ -22,13 +22,13 @@ export default function ButtonAppBar() {
   size={20}
   speedMultiplier={1}
 /> </Typography>
-            <Typography sx={{width:'50%',marginLeft:'40%'}}><Link to='/NewHome' className='link' color='inherit'>CAREER /</Link>
-             <Link  className='link' color='inherit'>ABOUT US /</Link>
-             <Link  to='/ContactUs' className='link' color='inherit'>CONTACT US</Link>  
+            <Typography sx={{width:'50%',marginLeft:'40%'}}><Link to='/NewHome' className='link2' color='inherit'>CAREER /</Link>
+             <Link  className='link2' color='inherit'>ABOUT US /</Link>
+             <Link  to='/ContactUs' className='link2' color='inherit'>CONTACT US</Link>  
              </Typography>
              </Box>
         
-          <Link to='/Login' className='link1' color='white'>LOGIN</Link>
+          <Link to='/Signup' className='link1' color='white'>LOGIN</Link>
         </Toolbar>
       </AppBar>
     </Box>

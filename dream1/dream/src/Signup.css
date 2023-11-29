@@ -1,0 +1,30 @@
+.form{
+    padding: 10px;
+}
+label{
+   display: flex;
+   margin-left: 10px;
+  
+}
+.username{
+    margin-left: 20%;
+
+}
+.email{
+    margin-left: 22%;
+    
+}
+.password{
+    margin-left: 20%;
+}
+.conform{
+    margin-left: 15%;
+}
+.link{
+    text-decoration: none;
+    color:blue;
+}
+.bg{
+    background-image: url(busness\ man1.png);
+    background-size: cover;
+}
