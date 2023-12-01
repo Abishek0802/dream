@@ -13,7 +13,7 @@ export default function ButtonAppBar() {
       <AppBar sx={{backgroundColor:'black',height:'80px',border:3,borderRadius:1,borderColor:'blue'}} position="static">
         <Toolbar>
           <Box  sx={{ color:'blue',marginTop:'5px',flexGrow: 1,height:'40px' ,border:2,borderRadius:2,display:'flex',alignItems:'center', backgroundColor: 'rgb(147, 208, 208)',paddingLeft:'20px',textAlign:'end'}}>
-          <Typography display='flex' alignItems='center'  variant="h6" component="div">
+          <Typography  display='flex' alignItems='center'  >
             Built Dream  <RingLoader
     className='Ring'
   color="blue"
