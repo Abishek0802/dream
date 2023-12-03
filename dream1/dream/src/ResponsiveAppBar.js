@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from "react";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,7 +11,12 @@ import RingLoader from "react-spinners/RingLoader"
 
 
 export default function ButtonAppBar() {
-  const Headerinfo ={Header1:'Built Dream',Header2:'CAREER',Header3:'ABOUT US',Header4:'CONACT US'}
+  const [Headerinfo] = useState({
+    Header1: "Build Dream",
+    Header2: "CAREER",
+  Header3: "ABOUT US",
+    Header4: "CONTACT US"
+  });
   return (
     <Box sx={{  flexGrow: 1, }}>
       <AppBar sx={{backgroundColor:'black',height:'80px',border:3,borderRadius:1,borderColor:'blue'}} position="static">
