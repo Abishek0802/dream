@@ -38,8 +38,7 @@ function ProductService() {
             <Button  sx={{marginTop:'40px',color:'white',backgroundColor:'black' ,"&:hover":{marginTop:'40px',color:'white',backgroundColor:'black'}}} variant="contained" disableElevation>
                 CONTACT SELLER
             </Button>
-            
-             </Box>
+     </Box>
   </Grid>
 </Grid>
 </>

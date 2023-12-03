@@ -15,7 +15,7 @@ import BuyingProductListing from "./BuyingProductListing";
 import ContactUs from "./ContactUs";
 import Signup from "./Signup";
 import Login from "./Login"
-const Page1 =[<ResponsiveAppBar/>,<MainContent/>,<Footer/>]
+const Page1 =[<ResponsiveAppBar />,<MainContent/>,<Footer/>]
 const Page2 =[<Buying/>,<BuyingProductListing/>,<Footer/>]
 const Page3 =[<Selling/>,<Footer/>]
 const Page4 =[<Eservice/>,<Footer/>]
