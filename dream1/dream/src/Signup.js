@@ -22,13 +22,33 @@ const SignUp = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Add your sign-up logic here, such as sending data to the server
-
-        // For this example, let's just log the form data to the console
-        console.log("Form Data:", formData);
+    
+        try {
+            const response = await fetch('http://localhost:5000/signup', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+    
+            if (response.ok) {
+                const data = await response.json();
+                console.log('Signup successful:', data.message);
+                // Redirect to login page or handle success in your application
+            } else {
+                const errorData = await response.json();
+                console.error('Signup failed:', errorData.message);
+                // Handle error in your application
+            }
+        } catch (error) {
+            console.error('Error signing up:', error);
+            // Handle error in your application
+        }
     };
+    
 
     return (
         <>
